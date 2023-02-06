@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0;
+    text-align: center;
+    background-image: url("images/background.png");
+    background-size: cover;
+    color: #473C33;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title {
+    margin-top: 15px;
+}
+.header-el {
+    margin: 5px 0;
+}
+#portrait-img {
+    width: 250px;
+    border: 5px solid #D3756B;
+    border-radius: 50px;
+}
+#bf-name {
+    font-weight: 400;
+    font-size:medium;
+}
+#bf-age {
+    background-color: #D3756B;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+#bf-date {
+    background-color: #D3756B;
+    padding: 3px 20px;
+    border-radius: 5px;
+    
+}
+#hint-msg {
+    font-size: small;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+.gift-section {
+    margin-top: 15px;
+}
+
+.gift-box {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 3px solid #D3756B;
+    border-radius: 10px;
+    background: url(images/gift.jpg);
+    background-size: cover;
+}
+
+#gift-box-happy:hover{
+    background: url(images/happy.gif);
+}
+#gift-box-love:hover{
+    background: url(images/weluvyou.gif);
+}
+#gift-box-beautiful:hover{
+    background: url(images/beautiful.gif);
+}
+#gift-box-hug:hover{
+    background: url(images/sohappy.gif);
+}
+
+#message {
+    width: 500px;
+    margin: 0 auto;
+}
+#footer {
+    font-size: small;
+    margin: 30px 10px;
+}
